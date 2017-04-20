@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author DiNeSh KriSHH
+ * @author Likesh Krishna
  */
 public class GuessANum {
 
