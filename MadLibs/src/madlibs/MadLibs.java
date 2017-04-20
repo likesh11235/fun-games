@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author DiNeSh KriSHH
+ * @author Likesh Krishna
  * it is my first biggest project
  * managed to point out all the errors by comments 
  */
@@ -52,29 +52,6 @@ public class MadLibs {
         return Adv;
     }
     //Setters
-    /* error made 
-    public void setName(){
-        this.Name = getName();
-    }
-    public void setNoun1(){
-        this.Noun1 = getNoun1();
-    }
-    public void setNoun2(){
-        this.Noun2 = getNoun2();
-    }
-    public void setNoun3(){
-        this.Noun3 = getNoun3();
-    }
-    public void setAdj1(){
-        this.Adj1 = getAdj1();
-    }
-    public void setAdj2(){
-        this.Adj2 = getAdj2();
-    }
-    public void setAdv(){
-        this.Adv = getAdv();
-    }
-    */
     public void setStory(String newStory){
         this.Story = newStory;
     }
@@ -147,8 +124,8 @@ public class MadLibs {
                     +getAdj2()+getNoun3()+" runs "+getAdv();
         }else{
             Story = "Hey!! I'm " +getName()+ " This is a damn about my enemies "+getNoun1()+" and "
-                    +getNoun2()+ " I used to have a dick named " + getNoun3()+ ". It looks " +getAdj1()+" and "
-                    +getAdj2()+"."+getNoun3()+" sucks "+getAdv();
+                    +getNoun2()+ " I used to have a toy named " + getNoun3()+ ". It looks " +getAdj1()+" and "
+                    +getAdj2()+"."+getNoun3()+" blinks "+getAdv();
         }
         setStory(Story);//need to set the story as the return type is void
     }
@@ -162,7 +139,7 @@ public class MadLibs {
         enterAdv();
         setRandomNo();// no parameters inside. smartass
         PutTogetherStory();//u can put this in main also but i did not try!!
-        System.out.println(getStory());//fucking important!! how did I miss this??
+        System.out.println(getStory());// important!! how did I miss this??
     }
     public void PrintInstructions(){
         System.out.println("This game is all about creating a crazy story!!!! Let us start");
